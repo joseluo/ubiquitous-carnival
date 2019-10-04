@@ -3,3 +3,4 @@ requests
 # Development
 pdbpp
 pytest
+sphinx
