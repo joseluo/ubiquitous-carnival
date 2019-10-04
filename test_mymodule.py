@@ -10,5 +10,4 @@ def test_get_ip_type():
 def test_get_ip_dots():
     """The IP(v4) is expected to have 4 dots."""
     ip = get_ip()
-    assert ip.count('.') == 4
-    
+    assert ip.count('.') == 3
